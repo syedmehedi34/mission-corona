@@ -107,13 +107,113 @@ ____________________________________*/
     margin-top: 3rem;
 
 }
-
 /* Head section end 
 ________________________________ */
 
 
 
 
+/* My Mission section starts 
+________________________________ */
+
+/* .my-mission-section {
+  border: 1px solid black;
+} */
+
+.my-mission-title {
+  /* border: 1px solid green; */
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 2.2rem;
+}
+
+.mission-card-container {
+  /* border: 1px solid blueviolet; */
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  display: flex;
+  /* gap: 2rem; */
+  justify-content: space-around;
+}
+
+.card-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 25%;
+  border-radius: 26px;
+  background: rgba(79, 157, 166, 0.1);
+  gap: 1rem;
+  padding: 2rem 0 2rem 1.25rem;
+}
+
+.mission-card-img {
+  width: 100px;
+  /* border: 1px solid black; */
+}
+
+.mission-card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.mission-card-description {
+  width: 85%;
+  color: rgb(66, 66, 66) ; 
+  font-size: 1rem;
+  font-weight: 400;
+
+}
+
+
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 25%;
+  border-radius: 26px;
+  background: rgba(255, 89, 89, 0.1);
+  gap: 1rem;
+  padding: 2rem 0 2rem 1.25rem;
+}
+.card-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 25%;
+  border-radius: 26px;
+  background: rgb(255, 244, 214);
+  gap: 1rem;
+  padding: 2rem 0 2rem 1.25rem;
+}
+
+
+
+
+/* 
+ Dot portion 
+ ___________________________ */
+.dot-portion {
+  display: flex;
+  justify-content: end; 
+}
+.dot-img-1 {
+  width: 110px;
+  height: fit-content;
+  margin-top: -100px;
+}
+
+.dot-portion-2 {
+  display: flex;
+  justify-content: start;
+}
+.dot-img-2 {
+  width: 110px;
+  height: fit-content;
+  margin-top: -120px;
+}
 
 
 
@@ -122,58 +222,66 @@ ________________________________ */
 
 
 
+/* 
+Develop section 
+_______________________ */
+
+.develop-section {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+
+.develop-img-container {
+  /* border: 1px solid gold; */
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  /* display: inline-block;  */
+    overflow: hidden;
 
 
+}
 
 
+.develop-right-container {
+  /* border: 1px solid darkred; */
+  width: 50%;
+}
+
+.develop-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.develop-description {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  width: 85%;
+}
 
 
+.develop-img {
+  width: 300px;
+  height: fit-content;
 
+  
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.develop-circle {
+  height: 200px;
+  width: 200px;
+  border: 30px solid rgb(255, 173, 90);
+  border-radius: 50%;
+  position: absolute; 
+  margin-right: 170px;
+}
 
 
 
