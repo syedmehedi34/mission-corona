@@ -14,8 +14,6 @@
   /* lobster font  */
   .lobster-font {
     font-family: "Lobster", sans-serif;
-    font-weight: 400;
-    font-style: normal;
   }
   
   /* Manrope font  */
@@ -46,7 +44,7 @@ ___________________________________*/
   padding: 12px;
   width: 30%;
   cursor: pointer;
-
+  border: none;
 }
 
 
@@ -204,7 +202,6 @@ ________________________________ */
   height: fit-content;
   margin-top: -100px;
 }
-
 .dot-portion-2 {
   display: flex;
   justify-content: start;
@@ -241,10 +238,6 @@ _______________________ */
   flex-direction: column;
   justify-content: center;
   align-items: end;
-  /* display: inline-block;  */
-    overflow: hidden;
-
-
 }
 
 
@@ -270,8 +263,6 @@ _______________________ */
 .develop-img {
   width: 300px;
   height: fit-content;
-
-  
 }
 
 .develop-circle {
@@ -285,84 +276,134 @@ _______________________ */
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* community section 
+__________________________________ */
+
+.community-section {
+ /* border: 1px solid black; */
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ padding-bottom: 7rem;
+ padding: 3rem;
+}
+
+
+.community-img-container {
+  /* border: 1px solid gold; */
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+.community-left-container {
+  /* border: 1px solid darkred; */
+  width: 50%;
+}
+
+
+
+/* Application section 
+____________________________ */
+
+
+.application-header {
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 700;
+  padding-top: 2rem;
+}
+
+.application-container {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+}
+
+.application-img-container {
+  width: 35%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+  
+}
+.application-img {
+  width: 220px;
+  height: fit-content;
+  margin: 0 auto;
+  /* position:fixed; */
+  margin-top: -180px;
+  /* margin-left: 0px; */
+  /* padding-left: -200px; */
+}
+
+.application-right-container {
+  width: 40%;
+
+}
+
+.application-right-description {
+  /* border: 1px solid black; */
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: -1rem;
+  margin-bottom: 1.85rem;
+}
+
+
+
+
+
+
+/* problem  */
+
+.sign-1 {
+  border-radius: 26px;
+  background: rgb(255, 173, 90);
+  width: 110px;
+  height: 110px;
+  margin-top: -425px;
+  /* padding-top: -400px; */
+  /* padding-left: ; */
+}
+
+
+
+
+/* Footer section  
+__________________________*/
+
+footer {
+  background: black;
+  padding: 1.75rem 0;
+}
+
+.footer-head {
+  font-family: "Lobster", sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.title-color-2 {
+  color: rgb(255, 89, 89);
+}
+
+
+
+.footer-description {
+  font-family: "Manrope", sans-serif;
+  font-size: .85rem;
+  font-weight: 400;
+  color: rgb(217, 219, 225);
+  text-align: center;
+  margin-top: 1rem;
+}
 
 
 
