@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap');
+
+
+/* Yeseva One font  */
+.yeseva-one-font {
+    font-family: "Yeseva One", serif;
+  }
+  
+  /* Poppins font  */
+  .poppins-font {
+    font-family: "Poppins", sans-serif;
+  }
+
+  /* lobster font  */
+  .lobster-font {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* Manrope font  */
+  .manrope-font{
+    font-family: "Manrope", sans-serif;
+  }
+
+
+/* FONT SECTION  
+___________________________________*/
+* {
+    margin: 0;
+    padding: 0;
+}
+.title-color {
+  color: rgb(255, 173, 90);
+}
+.primary-description {
+  font-size: .9rem;
+  font-weight: 400;
+  color: rgb(62, 62, 62);
+  
+
+}
+.primary-btn {
+  border-radius: 5px;
+  background: rgb(255, 89, 89);  
+  padding: 12px;
+  width: 30%;
+  cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+/* Head section  
+____________________________________*/
+.head-container {
+  /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 3.5rem;
+}
+
+.head-left-container {
+    /* border: 1px solid black; */
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 8rem;
+    padding-top: 6rem;
+}
+
+.head-left-title {
+  /* border: 1px solid black; */
+  width: fit-content;
+  border-left: 4px solid rgb(255, 89, 89);
+  padding-left: .85rem;
+  font-size: 3rem;
+  font-family: "Yeseva One", serif;
+
+}
+
+.head-left-description {
+  margin-top: .9rem;
+  margin-bottom: 1.5rem;
+}
+
+.head-left-msg {
+  margin-top: 1.8rem;
+}
+
+.head-img-container {
+    /* border: 1px solid green; */
+    width: 40%;
+    display: flex;
+    justify-content: end;
+}
+.head-img {
+    width: 70%;
+    height: fit-content;
+    margin-right: 8rem;
+    margin-top: 3rem;
+
+}
+
+/* Head section end 
+________________________________ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
